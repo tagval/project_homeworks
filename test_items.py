@@ -36,6 +36,6 @@ def test_button_add_to_basket_avalable(browser, language):
     url_button_name = text_translate.get(language)
     assert button_name == url_button_name, "Button isn't available"
 
-# pytest -s -v --language=en-gb project/test_items.py
-# pytest -s -v --language=fr project/test_items.py
+# pytest -s -v --language=en-gb test_items.py
+# pytest -s -v --language=fr test_items.py
 
